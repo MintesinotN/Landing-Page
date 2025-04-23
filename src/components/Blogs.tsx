@@ -3,19 +3,19 @@ const blogPosts = [
       title: "Top 5 Innovations in Electrical Engineering in 2025",
       excerpt: "Explore the latest cutting-edge technologies revolutionizing the world of electronics and computing.",
       image: "/blog/electrical.jpg",
-      link: "#",
+      link: "",
     },
     {
       title: "Beginner’s Guide to Embedded Systems",
       excerpt: "A step-by-step guide to getting started with microcontrollers, sensors, and real-time systems.",
       image: "/blog/embedded.jpg",
-      link: "#",
+      link: "",
     },
     {
       title: "The Future of IoT and AI Integration",
       excerpt: "How artificial intelligence is transforming connected devices and smart systems.",
       image: "/blog/iot-ai.jpg",
-      link: "#",
+      link: "",
     },
   ];
   

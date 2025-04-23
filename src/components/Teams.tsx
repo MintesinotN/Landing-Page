@@ -3,7 +3,7 @@ const teamMembers = [
       name: "Mintesinot Bekele",
       role: "Full Stack Developer",
       image: "/team/mintesinot.jpg",
-      linkedIn: "https://www.linkedin.com/in/mintesinot-bekele-5a80a3309/",
+      linkedIn: "https://www.linkedin.com/",
     },
     {
       name: "Liya Solomon",
@@ -40,6 +40,8 @@ const teamMembers = [
                 <p className="text-sm text-gray-500">{member.role}</p>
                 <a
                   href={member.linkedIn}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mt-3 inline-block text-blue-600 text-sm hover:underline"
                 >
                   LinkedIn →

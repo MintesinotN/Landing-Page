@@ -19,6 +19,16 @@ const services = [
       description: "Building and optimizing efficient power electronics and renewable energy systems.",
       icon: "⚡",
     },
+    {
+      title: "Low-Power Design",
+      description: "Engineered for efficiency, our hardware consumes minimal power without sacrificing performance.",
+      icon: "🔋",
+    },
+    {
+      title: "Secure Communication",
+      description: "End-to-end encryption and reliable protocols to protect data transmission across devices.",
+      icon: "🔒",
+    },
   ];
   
   export default function Services() {

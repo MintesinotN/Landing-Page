@@ -9,7 +9,13 @@ export default function About() {
             <img
               src="/team-members.png"
               alt="Team"
-              className="w-full h-full object-cover rounded-lg shadow-lg"
+              className="block sm:hidden w-full h-full object-cover rounded-lg shadow-lg"
+            />
+            {/* Image for sm and up */}
+            <img
+              src="/team-members-lg.png"
+              alt="Team"
+              className="hidden sm:block w-full h-full object-cover rounded-lg shadow-lg"
             />
           </div>
 

@@ -29,6 +29,16 @@ const services = [
       description: "End-to-end encryption and reliable protocols to protect data transmission across devices.",
       icon: "🔒",
     },
+    {
+      title: "Embedded Software Development",
+      description: "Custom firmware and real-time operating systems tailored for specific hardware and use-cases.",
+      icon: "💾",
+    },
+    {
+      title: "Digital Signal Processing",
+      description: "Advanced DSP techniques for audio, image, and data analysis in real-time applications.",
+      icon: "📈",
+    },
   ];
   
   export default function Services() {

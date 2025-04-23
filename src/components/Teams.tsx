@@ -1,8 +1,8 @@
 const teamMembers = [
     {
-      name: "Mintesinot Bekele",
+      name: "Fitsum Abebe",
       role: "Full Stack Developer",
-      image: "/team/mintesinot.jpg",
+      image: "/team/fitsum.png",
       linkedIn: "https://www.linkedin.com/",
     },
     {
@@ -29,12 +29,12 @@ const teamMembers = [
             {teamMembers.map((member, index) => (
               <div
                 key={index}
-                className="bg-white shadow-md rounded-xl p-6 hover:shadow-xl transition-shadow duration-300"
+                className="bg-white shadow-md rounded-xl hover:shadow-xl transition-shadow duration-300"
               >
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-32 h-32 object-cover rounded-full mx-auto mb-4"
+                  className="w-full h-fit object-cover rounded-xs mb-4"
                 />
                 <h3 className="text-xl font-semibold text-gray-800">{member.name}</h3>
                 <p className="text-sm text-gray-500">{member.role}</p>
@@ -42,7 +42,7 @@ const teamMembers = [
                   href={member.linkedIn}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-3 inline-block text-blue-600 text-sm hover:underline"
+                  className="my-3 inline-block text-blue-600 text-sm hover:underline"
                 >
                   LinkedIn →
                 </a>

@@ -6,8 +6,8 @@ export default function Hero() {
           backgroundImage: "url('/TechHomepage.png')",
         }}
       >
-        <div className="absolute inset-0 bg-opacity-60"></div>
-        <div className="py-4 bg-black/15 relative z-10 text-center px-4 sm:px-6 lg:px-8">
+        <div className=" bg-black/60 absolute inset-0 bg-opacity-60"></div>
+        <div className="py-4 relative z-10 text-center px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight">
             Empowering Innovation through Tech
           </h1>

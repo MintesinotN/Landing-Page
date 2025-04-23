@@ -31,24 +31,6 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* Icons */}
-          <div className="hidden md:flex items-center space-x-5">
-            <button className="relative">
-              <svg className="w-6 h-6 text-gray-700 hover:text-black transition duration-200" fill="none" stroke="currentColor" strokeWidth={2}
-                viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round"
-                  d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.5 7h13l-1.5-7M7 13h10" />
-              </svg>
-            </button>
-            <button>
-              <svg className="w-6 h-6 text-gray-700 hover:text-black transition duration-200" fill="none" stroke="currentColor" strokeWidth={2}
-                viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round"
-                  d="M5.121 17.804A4.992 4.992 0 0112 15c1.657 0 3.157.804 4.121 2.048M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-            </button>
-          </div>
-
           {/* Mobile Hamburger Button */}
           <div className="md:hidden">
             <button onClick={() => setMenuOpen(!menuOpen)}>

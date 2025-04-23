@@ -2,10 +2,10 @@ import { useState } from "react";
 
 const menuItems = [
   { name: "Home", href: "#" },
-  { name: "Services", href: "#" },
-  { name: "Blogs", href: "#" },
-  { name: "About", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Services", href: "#services" },
+  { name: "Blogs", href: "#blog" },
+  { name: "About", href: "#about" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {
@@ -77,6 +77,7 @@ export default function Navbar() {
                 key={index}
                 href={item.href}
                 className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded transition"
+                onClick={()=>setMenuOpen(false)}
               >
                 {item.name}
               </a>

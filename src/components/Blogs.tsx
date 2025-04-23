@@ -21,7 +21,7 @@ const blogPosts = [
   
   export default function Blog() {
     return (
-      <section className="py-16 bg-gray-50">
+      <section id="blog" className="scroll-mt-16 py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-4xl font-bold text-center text-gray-800 mb-4">From Our Blog</h2>
           <p className="text-center text-gray-500 mb-12">Stay updated with trends in tech, engineering, and innovation.</p>

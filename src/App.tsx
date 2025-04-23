@@ -5,6 +5,7 @@ import Stats from "./components/Stats";
 import Blog from "./components/Blogs";
 import Team from "./components/Teams";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Blog />
       <Team />
       <About />
+      <Contact />
     </>
   );
 }
